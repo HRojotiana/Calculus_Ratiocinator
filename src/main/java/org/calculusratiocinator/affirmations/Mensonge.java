@@ -1,10 +1,11 @@
 package org.calculusratiocinator.affirmations;
 
+import org.calculusratiocinator.valeurDeVerite.Faux;
 import org.calculusratiocinator.valeurDeVerite.ValeurDeVerite;
-import org.calculusratiocinator.valeurDeVerite.Vrai;
 
-public class Verite extends Affirmation{
-    public Verite(Vrai valeurDeVerite) {
+public class Mensonge extends Affirmation{
+
+    public Mensonge(Faux valeurDeVerite) {
         super(valeurDeVerite);
     }
 }
